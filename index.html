@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   
+  <h1>ITMD 4/541 - LAB 3 - MOHAMMED AMAAN UR RAHMAN</h1>
+  <h2>Tip Calculator</h2>
+  <form id="tipCalculator">
+    <div>
+      <label for="billTotal">Bill Total:</label>
+      <input type="text" id="billTotal" placeholder="Enter the bill total">
+    </div>
+    <div>
+      <label for="tipPercentage">Tip Percentage:</label>
+      <input type="text" id="tipPercentage" disabled>
+    </div>
+    <div>
+      <label for="tipSlider">Tip Percentage Slider:</label>
+      <input type="range" id="tipSlider" min="0" max="100">
+    </div>
+    <div>
+      <label for="tipAmount">Tip Amount:</label>
+      <input type="text" id="tipAmount" disabled>
+    </div>
+    <div>
+      <label for="totalWithTip">Total Bill with Tip:</label>
+      <input type="text" id="totalWithTip" disabled>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
